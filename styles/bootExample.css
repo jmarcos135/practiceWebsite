@@ -1,0 +1,15 @@
+.darkBG{
+  background: lightgray;
+}
+
+.darkerBG{
+  background: gray;
+}
+
+.darkestBG{
+  background:black;
+}
+
+.row{
+  color: red;
+}

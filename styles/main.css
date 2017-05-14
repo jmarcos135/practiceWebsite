@@ -1,29 +1,29 @@
-body{
+body {
   font-family: monospace;
   background-color: gray;
   color: white;
 }
 
-a{
-  color:blue;
+a {
+  color: blue;
 }
 
-p{
+p {
   /*color: white;*/
   padding: 20px;
   background: #666;
 }
 
-.secondary{
-  background:none;
-  color:red;
+.secondary {
+  background: none;
+  color: red;
 }
 
-#special{
-  background:red;
-    color:white;
+#special {
+  background: red;
+  color: white;
 }
 
-li{
+li {
   padding: 10px;
 }

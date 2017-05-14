@@ -1,29 +1,49 @@
-header{
+header {
   background: #999;
   color: white;
-  margin:0;
+  margin: 0;
   padding: 15px 15px 0 15px;
 }
 
-body{
-  margin:0;
-}
-
-header h1{
-  margin:0;
-  display:inline;
-}
-
-nav ul{
+body {
   margin: 0;
-  padding: 0;
-  display:inline;
 }
 
-nav ul li{
+header H1 {
+  display: inline;
+}
+
+nav ul {
+  padding: 0 0 0 15px;
+  display: inline;
+}
+
+nav ul li {
   background: black;
-  display:inline-block;
+  display: inline-block;
   color: white;
   list-style-type: none;
   padding: 5px 15px;
+}
+
+.row{
+  clear:both;
+}
+
+.row:after{
+  clear:both;
+}
+
+.col{
+  float: left;
+  border-radius: 5px;
+  color:white;
+  padding: 10px .5%;
+  background: #333;
+  margin: .5%;
+  width: 31%;
+}
+
+footer{
+  clear:both;
 }
